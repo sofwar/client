@@ -1,0 +1,63 @@
+
+
+#chart-inner-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 25px 0 0 25px;
+    -webkit-box-shadow: 0px 0px 5px 0px #d0d5e1, 5px 9px 25px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 5px 0px #d0d5e1, 0px 5px 25px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 5px 0px #d0d5e1, 0px 5px 25px rgba(0,0,0,0.1);
+}
+
+    #chart-inner-container .anim-cont {
+        position: absolute;
+        right: 0px;
+        left: 0px;
+        top: 0px;
+        bottom: 0px;
+        z-index: -1;
+    }
+
+        #chart-inner-container .anim-cont .nyan {
+            width: 100%;
+            height: 100%;
+            display: none;
+        }
+
+            #chart-inner-container .anim-cont .nyan.show {
+                display: inherit;
+            }
+
+            #chart-inner-container .anim-cont .nyan img {
+                display: block;
+                max-width: 90%;
+                max-height: 40%;
+                width: auto;
+                height: auto;
+            }
+
+    #chart-inner-container .max-profit {
+        position: absolute;
+        top: 22px;
+        left: 10%;
+        font-size: 12px;
+        color: rgb(76, 75, 75);
+    }
+
+    #chart-inner-container .connection-state {
+        position: absolute;
+        top: 45%;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-size: 2rem;
+        background-color: rgb(232, 128, 128);
+        line-height: 3rem;
+    }
+
+/** Small screen and small controls **/
+@media handheld, only screen and (max-width: 767px) {
+    #chart-inner-container.small .max-profit {
+    }
+}

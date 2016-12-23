@@ -1,0 +1,121 @@
+#bingo-display-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #cbd1de;
+    /*min-height: 286px;*/
+    overflow-x: auto;
+}
+
+#bingo-static-container {
+    display: table;
+    height: 100%;
+}
+
+#bingo-starting-container {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.img-placeholder {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    padding-left: 24px;
+}
+
+    .img-placeholder img {
+        width: 100%;
+    }
+    .img-placeholder video {
+        width: 100%;
+        /*height:100%;
+        max-height: 286px;*/
+    }
+
+.result-placeholder {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 12px 0 0;
+    width: 50%;
+   /* height: 286px;
+    min-height: 286px;*/
+
+}
+
+.result-container {
+       -webkit-animation-duration: 2s;
+   -moz-animation-delay: 2s;
+   animation-duration: 2s;
+}
+
+.h1-title, .h1-result-title {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: bold;
+    color: #00a4ef;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+.h1-result-title {
+    display: inline-block;
+    width: 100%;
+    text-align: /*right;*/left;
+    padding-bottom: 5px;
+}
+
+.winners-header, .prev-winners-header {
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    text-align: left; /*right;*/
+    padding: 0 0 5px 0;
+}
+
+.prev-winners-header {
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.winners-list {
+    list-style: none outside none;
+}
+    .winners-list li {
+        text-align: left; /*right;*/
+    }
+
+.winner-item {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    white-space: nowrap;
+}
+    .winner-item span:first-child {
+        /*background-color: gray;*/
+        min-width: 55px;
+        width: 16%;
+    }
+    .winner-item span:last-child {
+        width: 38%;
+        min-width: 90px;
+        /*background-color: gray;*/
+        text-align: right;
+    }
+    .winner-item span {
+        width: 31%;
+        min-width: 100px;
+        display: inline-block;
+        text-align: left;
+    }
+
+        .winner-item span.prev {
+            font-size: 12px;
+            text-align: left;
+        }

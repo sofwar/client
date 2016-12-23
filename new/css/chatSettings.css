@@ -1,0 +1,36 @@
+#chat-settings-container {
+    width: 100%;
+    height: 100%;
+        padding: 12px 0;
+}
+
+#chat-settings-container .option-row {
+        line-height: 24px; /*2rem;*/
+   /* margin-bottom: 12px;*/
+}
+
+#chat-settings-container .option-row:nth-of-type(even) {
+    /*background-color: whitesmoke;*/
+}
+
+#chat-settings-container .option-text {
+ font-size: 14px;
+    font-family:"Roboto-Condensed";
+    display: inline-block;
+    width: 145px;
+    padding-right: 11px;
+    text-align: right;
+}
+
+#chat-settings-container select {
+    /*background-color: #ddd;*/
+    height: 26px;
+        width: 160px;
+        border: 2px solid #e6eaf2;
+    color: #212224;
+    border-radius: 0;
+    display: inline-block;
+    /*height: 1rem;*/
+    cursor: pointer;
+    outline: none;
+}

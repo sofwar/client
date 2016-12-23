@@ -1,0 +1,569 @@
+input::-webkit-input-placeholder {
+    color: rgba(255,255,255,0.6) !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+    color: rgba(255,255,255,0.6) !important;
+}
+
+input::-moz-placeholder { /* Firefox 19+ */
+    color: rgba(255,255,255,0.6) !important;
+}
+
+input:-ms-input-placeholder {
+    color: rgba(255,255,255,0.6) !important;
+}
+
+html, body {
+}
+
+body {
+    color: white;
+    background: #2e3033;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: green; /*#1c1c1f;*/
+}
+
+::-webkit-scrollbar-track {
+    background-color: #45474c;
+}
+
+::-webkit-scrollbar-thumb {
+    border: 1px solid #1c1c1f;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #e6eaf2; /* #2a2c36; */
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #1c1c1f;
+}
+
+
+::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: rgba(0, 0, 0, 0.7);
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: rgba(0, 0, 0, 0.7);
+}
+
+:-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+/* ==========================================================================
+   topBar.css
+   ========================================================================== */
+
+#top-bar {
+    /*background-color: #292d35;*/
+    border-bottom: none;
+}
+
+    #top-bar .user-login .balance-bits span {
+        color: inherit;
+    }
+
+    #top-bar .toggle-view > .white.a {
+        color: #fff;
+    }
+
+
+/* ==========================================================================
+   game.css
+   ========================================================================== */
+
+#game-right-container {
+    /*border-color: #292d35;*/
+    background-color: #45474c;
+}
+
+
+/* ==========================================================================
+   controlsSelector.css
+   ========================================================================== */
+
+#controls-selector-container {
+    /* shadow */
+    -webkit-box-shadow: 0px 0px 5px 0px #222426, 0px 5px 25px rgba(0, 0, 0,0.5); /*#2e3033;  */
+    -moz-box-shadow: 0px 0px 5px 0px #222426, 0px 5px 25px rgba(0, 0, 0,0.5); /*#2e3033;  */
+    box-shadow: 0px 0px 5px 0px #222426, 0px 5px 25px rgba(0, 0, 0,0.5); /*#000;#2e3033;  */
+}
+
+    #controls-selector-container .button-holder {
+        background-color: #2e3033; /*292d35;*/
+    }
+
+        #controls-selector-container .button-holder a {
+            color: #fff !important; /*b0b3c1;*/
+        }
+
+    #controls-selector-container .controls-widget-container {
+        background-color: #45474c; /*#181a1e;*/
+    }
+
+    #controls-selector-container .button-holder.tab-active {
+        background-color: #45474c; /*181a1e;*/
+    }
+
+
+/* ==========================================================================
+   chartControls.css
+   ========================================================================== */
+
+#controls-container {
+    border-color: #292d35;
+    background-color: green;
+}
+
+#chart-container {
+    background-color: #45474c;
+}
+
+/* ==========================================================================
+   controls.css
+   ========================================================================== */
+
+#controls-inner-container .bet-input-group > input, #controls-inner-container .bet-input-group > span {
+    background-color: transparent; /* rgb(240, 238, 238);*/
+    color: #fff !important;
+}
+
+#strategy-container .auto-bet-container-2 span:first-child, /*.stra-base-bet-2 */
+#strategy-container .auto-bet-container-2 span:last-child,
+#strategy-container .auto-bet-container-2 div > input[type='text'] {
+    color: #fff !important;
+}
+
+#controls-inner-container .bet-input-group > input:disabled {
+    background-color: #BBBBBB;
+}
+
+
+/* ==========================================================================
+   chat.css
+   ========================================================================== */
+
+#chat .msg-chat-message {
+    color: white;
+}
+
+    #chat .msg-chat-message a {
+        color: white;
+    }
+
+#chat .time-stamp {
+    opacity: 0.6;
+}
+
+#chat .loading-container, #chat .spinner-pre-loader {
+    background-image: url('../img/loading-black.gif');
+}
+
+#chat-channel-selector .flags-container {
+    background-color: #181a1e;
+}
+
+#chat .chat-input {
+    background-color: transparent;
+    color: #e6eaf2;
+}
+
+/* ==========================================================================
+   tabsSelector.css
+   ========================================================================== */
+
+#tabs-inner-container, #tabs-inner-container .log-chat-container {
+    background-color: #45474c;
+    /* shadow */
+    -webkit-box-shadow: 0px 0px 5px 0px #222426, 0px 5px 25px rgba(0, 0, 0,0.5); /*rgba(0,0,0,0.1);*/
+    -moz-box-shadow: 0px 0px 5px 0px #222426, 0px 5px 25px rgba(0, 0, 0,0.5); /*rgba(0,0,0,0.1);*/
+    box-shadow: 0px 0px 5px 0px #222426, 0px 5px 25px rgba(0, 0, 0,0.5); /*rgba(0,0,0,0.1);*/
+}
+
+    #tabs-inner-container .widget-container {
+        background-color: #45474c; /*181a1e;*/
+    }
+
+    /*#tabs-inner-container, #tabs-inner-container .log-chat-container {
+    border-color: #292d35;
+}*/
+
+    #tabs-inner-container .tab-container li.tab.col-3, #tabs-inner-container .tab-container li.tab.col-4 {
+        background-color: #292d35;
+    }
+
+    #tabs-inner-container .tab-container li.tab.tab-active {
+        background-color: #45474c; /*181a1e;*/
+        color: white;
+    }
+
+    #tabs-inner-container .tab-container li.tab {
+        background-color: #2e3033;
+    }
+
+        #tabs-inner-container .tab-container li.tab a,
+        #tabs-inner-container .tab-container li.tab.tab-active a
+        /*#tabs-inner-container .tab-container li.tab.tab-active a:hover*/ {
+            color: #fff;
+        }
+
+    /*#tabs-inner-container .tab-container li.tab a {
+    color: #b0b3c1;
+}*/
+
+    #tabs-inner-container .tab-container .tab-settings {
+        background-color: #2e3033; /*#292d35;*/
+    }
+
+        #tabs-inner-container .tab-container .tab-settings.tab-active {
+            background-color: #45474c; /*#181a1e;*/
+        }
+
+        #tabs-inner-container .tab-container .tab-settings a {
+            color: #fff;
+        }
+
+/* ==========================================================================
+   settingsSelector.css
+   ========================================================================== */
+
+#settings-selector-container .tab-holder,
+#settings-selector-container .tab-holder:hover {
+    background-color: #2e3033;
+    color: #e6eaf2;
+}
+
+    #settings-selector-container .tab-holder.tab-active {
+        background-color: #45474c;
+        color: #e6eaf2;
+    }
+
+        #settings-selector-container .tab-holder a,
+        #settings-selector-container .tab-holder a:hover,
+        #settings-selector-container .tab-holder.tab-active a:hover,
+        #settings-selector-container .tab-holder.tab-active a {
+            /*color: #b0b3c1;*/
+            color: #e6eaf2!important;
+        }
+
+
+/* ==========================================================================
+   hotkeysSettings.css
+   ========================================================================== */
+
+#hotkeys-settings-container .hotkeys-list span:nth-of-type(odd) {
+    /*background-color: #202328;*/
+}
+
+
+/* ==========================================================================
+   displaySettings.css
+   ========================================================================== */
+#display-settings-container .option-row:nth-of-type(even){
+    /*background-color: #202328;*/
+}
+
+#display-settings-container select, #display-settings-container input {
+    background-color: #45474c;
+    border-color: #e6eaf2;
+    color: #e6eaf2 !important;
+}
+
+/* ==========================================================================
+   chatSettings.css
+   ========================================================================== */
+
+#chat-settings-container .option-row:nth-of-type(even) {
+    /*background-color: #202328;*/
+}
+
+#chat-settings-container select {
+    background-color: #45474c;
+    border-color: #e6eaf2;
+    color: #e6eaf2 !important;
+}
+
+
+/* ==========================================================================
+   strategy.css
+   ========================================================================== */
+
+#strategy-container .auto-bet-container {
+    color: white;
+}
+
+#strategy-container .strategy-start, #strategy-container .strategy-stop, #strategy-container .strategy-select {
+    background-color: transparent; /*#292d35 ;*/
+    border-color: #e6eaf2;
+    color: white;
+}
+#strategy-container .strategy-select {
+    background-color: #45474c;
+}
+
+    #strategy-container .strategy-start:disabled, #strategy-container .strategy-stop:disabled, #strategy-container .strategy-select:disabled {
+        color: #5f6061;
+        border-color: #5f6061!important;
+    }
+
+#strategy-container .auto-bet-container input[type="text"] {
+    color: white;
+}
+
+#strategy-container .auto-bet-container > div:nth-of-type(even) {
+    background-color: #202328;
+}
+
+#strategy-container .strategy-input {
+    background-color: transparent;
+    color: white;
+}
+
+    #strategy-container .strategy-input:disabled {
+        color: grey;
+    }
+
+#strategy-container .auto-bet-container-2 .stra-base-bet-2 > span:first-child,
+#strategy-container .auto-bet-container-2 .stra-cash-out-at > span:first-child,
+#strategy-container .auto-bet-container-2 .stra-max-bet-stop > span:first-child {
+    color: #e6eaf2;
+}
+
+#strategy-container .auto-bet-container-2 .stra-base-bet-2 > input,
+#strategy-container .auto-bet-container-2 .stra-cash-out-at > input,
+#strategy-container .auto-bet-container-2 .stra-max-bet-stop > input,
+#strategy-container .auto-bet-container-2 .stra-on-loss div > input[type='text'],
+#strategy-container .auto-bet-container-2 .stra-on-win div > input[type='text'] {
+    background-color: #45474c;
+    color: #e6eaf2;
+}
+
+#strategy-container .auto-bet-container-2 .stra-base-bet-2 > span:last-child,
+#strategy-container .auto-bet-container-2 .stra-cash-out-at > span:last-child,
+#strategy-container .auto-bet-container-2 .stra-max-bet-stop > span:last-child,
+#strategy-container .auto-bet-container-2 .stra-on-win > div > span:last-child {
+    color: #e6eaf2;
+}
+
+/* ==========================================================================
+   players.css
+   ========================================================================== */
+
+#players-container {
+    -webkit-box-shadow: 0px 0px 5px 0px #222426, 0px 5px 25px rgba(0, 0, 0,0.5); /*rgba(0,0,0,0.1);*/
+    -moz-box-shadow: 0px 0px 5px 0px #222426, 0px 5px 25px rgba(0, 0, 0,0.5); /*rgba(0,0,0,0.1);*/
+    box-shadow: 0px 0px 5px 0px #222426, 0px 5px 25px rgba(0, 0, 0,0.5); /*rgba(0,0,0,0.1);*/
+}
+
+@media handheld, only screen and (max-width: 767px) {
+    #players-container {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+}
+
+#players-container, #players-container .header-bg {
+    background-color: #45474c;
+}
+
+
+
+    #players-container table .th-inner {
+        color: #fff;
+    }
+
+
+/* ==========================================================================
+   gamesLog.css
+   ========================================================================== */
+
+#games-log-container table .th-inner {
+    color: #b0b3c1;
+}
+
+#games-log-container .games-log tr:nth-of-type(even) {
+    /*background-color: #1a1c21;*/
+}
+
+#games-log-container .games-log-hash {
+    color: white;
+}
+
+
+/* ==========================================================================
+   chart.css
+   ========================================================================== */
+#chart-inner-container {
+    -webkit-box-shadow: 0px 0px 5px 0px #222426, 0px 5px 25px rgba(0, 0, 0,0.5); /*rgba(0,0,0,0.1);*/
+    -moz-box-shadow: 0px 0px 5px 0px #222426, 0px 5px 25px rgba(0, 0, 0,0.5); /*rgba(0,0,0,0.1);*/
+    box-shadow: 0px 0px 5px 0px #222426, 0px 5px 25px rgba(0, 0, 0,0.5); /*rgba(0,0,0,0.1);*/
+}
+
+    #chart-inner-container .max-profit {
+        color: white;
+    }
+
+
+/*===========================================================================
+    bingoControl.css
+============================================================================= */
+
+.winners-header, .prev-winners-header, .winner-item, .winner-item span, .winners-list span.prev {
+    color: #000!important;
+}
+
+/* ==========================================================================
+   Space animations
+   ========================================================================== */
+
+.space-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+    .space-wrap.flying .space-container {
+        -webkit-animation: spacebg 1s infinite linear;
+        -moz-animation: spacebg 1s infinite linear;
+        -o-animation: spacebg 1s infinite linear;
+        -ms-animation: spacebg 1s infinite linear;
+        animation: spacebg 1s infinite linear;
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        -o-animation-delay: 1s;
+        -ms-animation-delay: 1s;
+        animation-delay: 1s;
+    }
+
+    .space-wrap.waiting .space-container-wrap {
+        -webkit-animation-play-state: running;
+        -moz-animation-play-state: running;
+        -o-animation-play-state: running;
+        -ms-animation-play-state: running;
+        animation-play-state: running;
+    }
+
+.space-gradient {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: -webkit-linear-gradient(rgba(0,0,0,0.5), transparent);
+    background: -moz-linear-gradient(rgba(0,0,0,0.5), transparent);
+    background: -o-linear-gradient(rgba(0,0,0,0.5), transparent);
+    background: -ms-linear-gradient(rgba(0,0,0,0.5), transparent);
+    background: linear-gradient(rgba(0,0,0,0.5), transparent);
+    z-index: -1;
+}
+
+.space-container-wrap {
+    z-index: -2;
+    position: absolute;
+    top: -480px;
+    right: -320px;
+    left: 0;
+    bottom: 0;
+    -webkit-animation: spacebg 15s infinite linear;
+    -moz-animation: spacebg 15s infinite linear;
+    -o-animation: spacebg 15s infinite linear;
+    -ms-animation: spacebg 15s infinite linear;
+    animation: spacebg 15s infinite linear;
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    -ms-animation-play-state: paused;
+    animation-play-state: paused;
+}
+/*.space-container {*/
+/*z-index: -2;*/
+/*position: absolute;*/
+/*top: -480px;*/
+/*right: -320px;*/
+/*left: 0;*/
+/*bottom: 0;*/
+/*background: #21242a url("/img/stars.png");*/
+/*}*/
+
+
+
+/*@-moz-keyframes spacebg {*/
+/*0% {*/
+/*-webkit-transform: translate3D(0, 0, 0);*/
+/*-moz-transform: translate3D(0, 0, 0);*/
+/*-o-transform: translate3D(0, 0, 0);*/
+/*-ms-transform: translate3D(0, 0, 0);*/
+/*transform: translate3D(0, 0, 0);*/
+/*}*/
+/*100% {*/
+/*-webkit-transform: translate3D(-320px, 480px, 0);*/
+/*-moz-transform: translate3D(-320px, 480px, 0);*/
+/*-o-transform: translate3D(-320px, 480px, 0);*/
+/*-ms-transform: translate3D(-320px, 480px, 0);*/
+/*transform: translate3D(-320px, 480px, 0);*/
+/*}*/
+/*}*/
+/*@-webkit-keyframes spacebg {*/
+/*0% {*/
+/*-webkit-transform: translate3D(0, 0, 0);*/
+/*-moz-transform: translate3D(0, 0, 0);*/
+/*-o-transform: translate3D(0, 0, 0);*/
+/*-ms-transform: translate3D(0, 0, 0);*/
+/*transform: translate3D(0, 0, 0);*/
+/*}*/
+/*100% {*/
+/*-webkit-transform: translate3D(-320px, 480px, 0);*/
+/*-moz-transform: translate3D(-320px, 480px, 0);*/
+/*-o-transform: translate3D(-320px, 480px, 0);*/
+/*-ms-transform: translate3D(-320px, 480px, 0);*/
+/*transform: translate3D(-320px, 480px, 0);*/
+/*}*/
+/*}*/
+/*@-o-keyframes spacebg {*/
+/*0% {*/
+/*-webkit-transform: translate3D(0, 0, 0);*/
+/*-moz-transform: translate3D(0, 0, 0);*/
+/*-o-transform: translate3D(0, 0, 0);*/
+/*-ms-transform: translate3D(0, 0, 0);*/
+/*transform: translate3D(0, 0, 0);*/
+/*}*/
+/*100% {*/
+/*-webkit-transform: translate3D(-320px, 480px, 0);*/
+/*-moz-transform: translate3D(-320px, 480px, 0);*/
+/*-o-transform: translate3D(-320px, 480px, 0);*/
+/*-ms-transform: translate3D(-320px, 480px, 0);*/
+/*transform: translate3D(-320px, 480px, 0);*/
+/*}*/
+/*}*/
+/*@keyframes spacebg {*/
+/*0% {*/
+/*-webkit-transform: translate3D(0, 0, 0);*/
+/*-moz-transform: translate3D(0, 0, 0);*/
+/*-o-transform: translate3D(0, 0, 0);*/
+/*-ms-transform: translate3D(0, 0, 0);*/
+/*transform: translate3D(0, 0, 0);*/
+/*}*/
+/*100% {*/
+/*-webkit-transform: translate3D(-320px, 480px, 0);*/
+/*-moz-transform: translate3D(-320px, 480px, 0);*/
+/*-o-transform: translate3D(-320px, 480px, 0);*/
+/*-ms-transform: translate3D(-320px, 480px, 0);*/
+/*transform: translate3D(-320px, 480px, 0);*/
+/*}*/
+/*}*/

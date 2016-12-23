@@ -1,0 +1,49 @@
+#display-settings-container {
+    width: 100%;
+    height: 100%;
+    padding: 12px 0;
+}
+
+#display-settings-container .option-row {
+    line-height: 24px; /*2rem;*/
+    margin-bottom: 12px;
+}
+
+#display-settings-container .option-row:nth-of-type(even) {
+    /*background-color: whitesmoke;*/
+}
+
+#display-settings-container .option-text {
+    /*padding-left: 0.2rem;
+    padding-right: 0.3rem;*/
+    font-size: 14px;
+    font-family:"Roboto-Condensed";
+    display: inline-block;
+    width: 134px;
+    padding-right: 11px;
+    text-align: right;
+}
+
+#display-settings-container select {
+    /*background-color: #ddd;*/
+    /*border: 2px solid #e6eaf2;*/
+    color: black;
+    border-radius: 0;
+    display: inline-block;
+   /* height: 1rem;*/
+    cursor: pointer;
+    outline: none;
+    /* padding-left: 1rem; */
+}
+
+    #display-settings-container .option-row > input,
+    #display-settings-container .option-row > select {
+        height: 26px;
+        width: 160px;
+        border: 2px solid #e6eaf2;
+        color: #212224;
+        font-family: "Roboto-Condensed";
+        font-size: 14px;
+        padding-bottom:2px;
+        padding-left: 4px;
+    }

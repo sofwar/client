@@ -1,0 +1,37 @@
+#hotkeys-settings-container {
+}
+
+#hotkeys-settings-container .activation-row {
+    margin: 12px 0 12px 20px;
+    font-size: 14px;
+    font-family:"Roboto-Condensed"; 
+}
+
+#hotkeys-settings-container #activate-hotkeys {
+}
+
+#hotkeys-settings-container label {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#hotkeys-settings-container input[type='checkbox'] {
+    display: inline-block;
+}
+
+
+#hotkeys-settings-container .hotkeys-list {
+ /*   margin-top: 1rem;*/
+}
+
+#hotkeys-settings-container .hotkeys-list span {
+    display: block;
+    line-height: 24px;/*2rem;*/
+    padding-left: 38px;
+    font-size: 14px;
+    font-family:"Roboto-Condensed"; 
+}
+
+#hotkeys-settings-container .hotkeys-list span:nth-of-type(odd) {
+    /*background-color: whitesmoke;*/
+}

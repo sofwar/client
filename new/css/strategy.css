@@ -1,0 +1,227 @@
+#strategy-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 24px;
+}
+#strategy-container .widget-container {
+    /*  position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 1.2rem; */
+    overflow-y: scroll;
+}
+#strategy-container .control-buttons {
+    position: absolute;
+    right: 24px;
+    left: 0;
+    bottom: 24px;
+}
+#strategy-container .buttons-container {
+    text-align: right;
+}
+#strategy-container .strategy-invalid-data {
+    font-size: .6em;
+    color: #B81717;
+    padding-left: .6em;
+    display: block;
+    text-align: right;
+}
+
+/* Auto Bet widget
+   ========================================================================== */
+
+#strategy-container .auto-bet-container {
+    padding-top: 0.2rem;
+    color: black;
+}
+#strategy-container .auto-bet-container>div:nth-of-type(even) {
+    background-color: whitesmoke;
+}
+#strategy-container .stra-base-bet {
+    /* background-color: #ffffff; */
+}
+#strategy-container .stra-cash-out-at {
+    /* background-color: whitesmoke; */
+}
+/*#strategy-container .stra-base-bet, #strategy-container .stra-cash-out-at, #strategy-container .stra-max-bet-stop {
+    line-height: 1.7rem;
+    padding-left: 1em;
+}*/
+#strategy-container .stra-on-loss {
+  /*  padding-left: 1em;
+    padding-top: .3em;
+    padding-bottom: .3em;*/
+    /* background-color: whitesmoke; */
+}
+/*#strategy-container .stra-on-loss:first-child {
+    line-height: 24: 24px; /*1em;*/
+}*/
+#strategy-container .stra-on-win {
+    /*padding-left: 1em;
+    padding-top: .3em;
+    padding-bottom: .3em;*/
+    /* background-color: #ffffff; */
+}
+#strategy-container .stra-on-win:first-child {
+    line-height: 24: 24px; /*1em;*/
+}
+#strategy-container .stra-max-bet-stop {
+    /* background-color: #ffffff; */
+}
+#strategy-container .stra-on-loss-return-to-base-radio, #strategy-container .stra-on-loss-increase-bet-by, #strategy-container .stra-on-win-return-to-base-radio, #strategy-container .stra-on-win-increase_bet_by {
+    /*margin-left: 1.2em;*/
+    margin-left: 0;
+}
+
+/* Strategy Script
+   ========================================================================== */
+
+#strategy-container .strategy-input {
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgba(94, 94, 94, 0.2);
+    display: block;
+    resize: none;
+}
+#strategy-container .strategy-start, #strategy-container .strategy-stop, #strategy-container .strategy-select  {
+    background-color: #ffa500;
+    border: 2px solid #ffa500;
+    color: black;
+    border-radius: 0;
+    display: inline-block;
+    /*height: 1rem;*/
+    cursor: pointer;
+    outline: none;
+    width: 84px;
+    height: 24px;
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#strategy-container .strategy-select {
+    background-color: transparent;
+    border-color: #e6eaf2!important;
+}
+#strategy-container .strategy-start:disabled, #strategy-container .strategy-stop:disabled, #strategy-container .strategy-select:disabled {
+    color: #b7b8b9;
+    background-color: transparent;
+    border-color: #f2f4f8!important;
+}
+#strategy-container .strategy-start {
+    margin-right: 12px;
+}
+#strategy-container .strategy-stop {
+    margin-right: 12px;
+}
+#strategy-container .strategy-select {
+    /*margin-right: 0.2rem;*/
+}
+/*#strategy-container .bet-title {
+    font-weight: 500;
+}*/
+#strategy-container .auto-bet-container input[type="text"] {
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    padding: 0;
+    resize: none;
+    border-bottom: 1px solid #ff0;
+    text-align: center;
+    width: 5em;
+    font-size: .8em;
+    font-weight: 500;
+    color: black;
+}
+#strategy-container .auto-bet-container-2 {
+  width: 100%;
+  overflow-y: scroll;
+}
+
+#strategy-container .auto-bet-container-2 span {
+  font-size: 14px;
+   font-family: "Roboto-Condensed";
+}
+
+#strategy-container .auto-bet-container-2 .stra-base-bet-2,
+#strategy-container .auto-bet-container-2 .stra-cash-out-at,
+#strategy-container .auto-bet-container-2 .stra-max-bet-stop{
+  display: table;
+  /*padding: 24px 22px;*/
+  margin-bottom: 12px;
+  position: relative;
+  /*width: 100%;*/
+  margin-bottom: 12px;
+}
+
+#strategy-container .auto-bet-container-2 input 
+{
+    font-size: 14px; /*1rem;*/
+    border: 2px solid #e6eaf2;
+    color: #212224 /*181a1e;*/
+}
+
+#strategy-container .auto-bet-container-2  span:first-child
+{
+    width: 30%;
+    font-size: 14px;
+    font-family: "Roboto-Condensed";
+    min-width: 110px;
+    display: table-cell;
+    border: none;
+    color: #212224; /*b0b3c1;*/
+    text-align: right;
+    padding-right: 11px;
+
+}
+
+    #strategy-container .auto-bet-container-2 .stra-on-loss .bet-title,
+    #strategy-container .auto-bet-container-2 .stra-on-win .bet-title {
+        text-align: left;
+        line-height: 36px;
+    }
+
+#strategy-container .auto-bet-container-2  input[type='text']
+{
+  display: table-cell;
+  line-height: 36px; /*2em;*/
+  height: 26px; /*2em;*/
+  width: 90px;
+  min-width: 85px;
+  outline: none;
+  padding-left: 0.5rem;
+  margin: 0;
+  background-color: transparent;
+}
+/*#strategy-container .auto-bet-container-2 .stra-base-bet-2>span:last-child,
+#strategy-container .auto-bet-container-2 .stra-cash-out-at>span:last-child,
+#strategy-container .auto-bet-container-2 .stra-max-bet-stop>span:last-child,
+#strategy-container .auto-bet-container-2 .stra-on-win > div > span:last-child */ 
+#strategy-container .auto-bet-container-2 span:last-child {
+    color: #212224; /*555;*/
+    text-align: left;
+    padding-left: 5px;
+    font-family: "Roboto-Condensed";
+    width: 100%;
+    white-space: nowrap;
+    vertical-align: middle;
+    /*height: 1rem;*/
+    /*display: table-cell;*/
+    line-height: 32px;
+
+}
+#strategy-container .auto-bet-container-2 .stra-on-loss > div > span:last-child {
+/*    color: red;
+    width: 20px;*/
+   /* display: inline-block;*/
+}
+
+   /* #strategy-container .auto-bet-container-2 .stra-on-loss > div > input[type='text'] {
+        margin: 0 10px 0 20px ;
+    }*/
+
+    #strategy-container .auto-bet-container-2 div > div > input[type='text'] {
+        margin-left: 7px ;
+    }
